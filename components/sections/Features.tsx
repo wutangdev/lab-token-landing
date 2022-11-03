@@ -10,7 +10,7 @@ function Features() {
                 <div className="row row-cols-1 row-cols-md-2 align-items-md-center">
                     <div className="d-flex flex-column align-items-start gap-2">
                         <h3 className="fw-bold">Left-aligned title explaining these awesome features</h3>
-                        <p className="text-muted">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                        <p className="text-muted">Paragraph of text beneath the heading to explain the heading. We{"'"}ll add onto it with another sentence and probably just keep going until we run out of words.</p>
                         <a href="#" className="btn btn-primary btn-lg">Primary button</a>
                     </div>
                     <div className="row row-cols-1 row-cols-sm-2 g-4">
