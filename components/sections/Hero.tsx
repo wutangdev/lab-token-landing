@@ -11,8 +11,8 @@ function Hero() {
                     <img src="/graphics/science.svg" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"/>
                 </div>
                 <div className="col-lg-6">
-                    <h1 className="display-5 fw-bold lh-1 mb-3">Hero</h1>
-                    <p className="lead">Some descriptive text</p>
+                    <h1 className="display-5 fw-bold lh-1 mb-3">Bringing Power to the People</h1>
+                    <p className="lead">Lab Reserve, powered through our native token LAB, is a community driven reserve currency protocol that is asset-backed per token.</p>
                     <div className="d-grid gap-2 d-md-flex justify-content-md-start">
                     <button type="button" className="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
                     <button type="button" className="btn btn-outline-secondary btn-lg px-4">Default</button>
