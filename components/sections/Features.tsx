@@ -20,7 +20,7 @@ function Features() {
                             <FaDiscord/>
                         </div>
                         <h4 className="fw-semibold mb-0">How it Works</h4>
-                        <p className="text-muted">Lab Token's initial supply will only be that of those who purchased Lab token during our Private investment rounds, Public Presale, and the initial liquidity pairing. Investors of Lab token will then be able to stake their Lab to mint and generate income through asset to asset staking. This staking pool will have a fixed APY for all stakers. If dilution occurs, Lab Reserve will purchase and burn excess tokens to restore stability. </p>
+                        <p className="text-muted">Lab Token{"'"}s initial supply will only be that of those who purchased Lab token during our Private investment rounds, Public Presale, and the initial liquidity pairing. Investors of Lab token will then be able to stake their Lab to mint and generate income through asset to asset staking. This staking pool will have a fixed APY for all stakers. If dilution occurs, Lab Reserve will purchase and burn excess tokens to restore stability. </p>
                         </div>
 
                         <div className="d-flex flex-column gap-2">
@@ -38,7 +38,7 @@ function Features() {
                             <FaDiscord/>
                         </div>
                         <h4 className="fw-semibold mb-0">Our Strategy</h4>
-                        <p className="text-muted">Our Strategy for growing the Lab Reserve ecosystem is based through our staff's expertise in securing partnerships and secure early adoption of accepting Lab Token as a form of payment. The Lab Reserve Team is dedicated to enabling and optimizing Lab token for mass adoption. </p>
+                        <p className="text-muted">Our Strategy for growing the Lab Reserve ecosystem is based through our staff{"'"}s expertise in securing partnerships and secure early adoption of accepting Lab Token as a form of payment. The Lab Reserve Team is dedicated to enabling and optimizing Lab token for mass adoption. </p>
                         </div>
 
                         <div className="d-flex flex-column gap-2">
@@ -48,7 +48,7 @@ function Features() {
 
                         </div>
                         <h4 className="fw-semibold mb-0">Our Investments</h4>
-                        <p className="text-muted">Lab Reserve, powered with Lab Token, will utilize it's treasury to invest into new and promising protocols, tokens, and high return yield strategies across the DeFi ecosystem.</p>
+                        <p className="text-muted">Lab Reserve, powered with Lab Token, will utilize it{"'"}s treasury to invest into new and promising protocols, tokens, and high return yield strategies across the DeFi ecosystem.</p>
                         </div>
                     </div>
                 </div>
