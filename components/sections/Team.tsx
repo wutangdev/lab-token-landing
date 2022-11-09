@@ -79,7 +79,7 @@ function Team() {
                       </Card.Text>
                       <ul className="nav col-md-4 justify-content-center list-unstyled d-flex" style={{margin:'auto'}}>
                       { member.twitter == true ? (
-                      <li><a href={member.twitterHref}><FaTwitter  size={"1.5rem"} /></a></li>
+                      <li><a href={member.twitterHref}><FaTwitter  size={"1.5rem"} color={"#01d437"}/></a></li>
                       ) : (
                         
                       <li style={{width:0}}></li> 

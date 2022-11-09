@@ -23,7 +23,7 @@ function NavComponent() {
                 <Nav.Link href="#about">About</Nav.Link>             
                 <Nav.Link href="">Tokenomics</Nav.Link>
                 <Nav.Link href="#roadmap">Roadmap</Nav.Link>
-                <Nav.Link href="#heroes">Team</Nav.Link>   
+                <Nav.Link href="#team">Team</Nav.Link>   
                 <Nav.Link href="" target="_blank">Whitepaper</Nav.Link>
               </Nav>              
               <Nav className="ms-auto">
