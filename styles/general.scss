@@ -41,6 +41,10 @@ margin: auto;
 text-align: center;
 }
 
+.footer-container{    
+background-color: #0c100c;
+}
+
 .navLogo {
 height: 2.5rem;
 }
@@ -214,3 +218,37 @@ height: 100%;
     border-color: transparent!important;
     color: #01d437!important;
 }
+
+.custom-card{
+    background-color: #0c100c!important;
+    color: #01d437!important;
+    max-width: 18rem!important; 
+    margin:auto!important;
+    height:100%!important; 
+    border-radius:20px!important; 
+    overflow:hidden!important;
+}
+
+//accordion
+.accordion-button{
+    background-color:#0c100c!important;
+    color: #01d437!important;
+  }
+  
+  .accordion-body{
+    background-color:#0c100c!important;
+    color: #01d437!important;
+  }
+  
+  .accordion-item{
+    border: 1px solid rgba(255, 255, 255, 0.125)!important;
+  }
+  
+  .accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>")!important;  
+  }
+  
+  .accordion-button:focus {
+    border-color: #01d437!important;
+    box-shadow: 0 0 0 0.15rem #01d437!important;
+  }

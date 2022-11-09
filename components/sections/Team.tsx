@@ -12,7 +12,7 @@ const teamMembers = [
   desc : "Description of team member",
   twitter : true,
   twitterHref : "",
-  img : "/images/team/",
+  img : "/team/alec.png",
   }, 
   {id:1,
   name : "Team Member 2",
@@ -20,7 +20,7 @@ const teamMembers = [
   desc : "Description of team member",
   twitter : true,
   twitterHref : "",
-  img : "/images/team/",
+  img : "/team/noah.png",
   }, 
   {id:2,
   name : "Team Member 3",
@@ -28,7 +28,7 @@ const teamMembers = [
   desc : "Description of team member",
   twitter : true,
   twitterHref : "",
-  img : "/images/team/",
+  img : "/team/alec.png",
   }, 
   {id:3,
   name : "Team Member 4",
@@ -36,7 +36,7 @@ const teamMembers = [
   desc : "Description of team member",
   twitter : true,
   twitterHref : "",
-  img : "/images/team/",
+  img : "/team/noah.png",
   }, 
   {id:4,
   name : "Team Member 5",
@@ -44,7 +44,7 @@ const teamMembers = [
   desc : "Description of team member",
   twitter : true,
   twitterHref : "",
-  img : "/images/team/",
+  img : "/team/alec.png",
   }, 
 ];
 
@@ -69,12 +69,12 @@ function Team() {
 
                 {teamMembers.map(member => (
                   <div  key={member.id} className="col-sm-6 col-lg-4 team-container">
-                  <Card className='ga-container' style={{ width: '18rem', margin:'auto', height:'100%', borderRadius:'20px', overflow:'hidden' }}>
+                  <Card className='custom-card'>
                     <Card.Img variant="top" src={member.img} />
                     <Card.Body>
                       <Card.Title>{member.name}</Card.Title>
                       <Card.Text>
-                        {member.title} <br></br><br></br>
+                        {member.title} <br></br>
                         {member.desc}
                       </Card.Text>
                       <ul className="nav col-md-4 justify-content-center list-unstyled d-flex" style={{margin:'auto'}}>
@@ -98,17 +98,17 @@ function Team() {
 
                 {teamMembers.map(member => (
                   <div  key={member.id} className="col-sm-6 col-lg-4 team-container">
-                  <Card className='ga-container' style={{ width: '18rem', margin:'auto', height:'100%', borderRadius:'20px', overflow:'hidden' }}>
+                  <Card className='custom-card'>
                     <Card.Img variant="top" src={member.img} />
                     <Card.Body>
                       <Card.Title>{member.name}</Card.Title>
                       <Card.Text>
-                        {member.title} <br></br><br></br>
+                        {member.title} <br></br>
                         {member.desc}
                       </Card.Text>
                       <ul className="nav col-md-4 justify-content-center list-unstyled d-flex" style={{margin:'auto'}}>
                       { member.twitter == true ? (
-                      <li><a href={member.twitterHref}><FaTwitter  size={"1.5rem"} /></a></li>
+                      <li><a href={member.twitterHref}><FaTwitter  size={"1.5rem"} color={"#01d437"}/></a></li>
                       ) : (
                         
                       <li style={{width:0}}></li> 
