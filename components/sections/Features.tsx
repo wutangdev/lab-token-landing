@@ -11,7 +11,7 @@ function Features() {
                     <div className="d-flex flex-column align-items-start gap-2">
                         <h3 className="fw-bold">Our Goal for Lab Reserve</h3>
                         <p className="text-muted">Our goal is to build a trusted decentralized reserve protocol that preserves purchasing power through long term price stability and a growing treasury to back liquidity for Lab Token across decentralized and centralized platforms. </p>
-                        <a href="#" className="btn btn-primary btn-lg">Primary button</a>
+                        {/* <a href="#" className="btn btn-primary btn-lg">Primary button</a> */}
                     </div>
                     <div className="row row-cols-1 row-cols-sm-2 g-4">
                         <div className="d-flex flex-column gap-2">
