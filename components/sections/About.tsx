@@ -20,7 +20,7 @@ function About() {
                 
                 <div className="row align-items-center g-5 py-5">
                 <div className="col-10 col-sm-8 col-lg-6">
-                    <img src="/graphics/bitcoin_path.svg" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"/>
+                    <img src="/graphics/flasks.png" className="d-block mx-lg-auto img-fluid" alt="flasks" width="700" height="500" loading="lazy"/>
                 </div>
                 <div className="col-lg-6">
                     <h1 className="display-5 fw-bold lh-1 mb-3">Our Goal for Lab Reserve</h1>
