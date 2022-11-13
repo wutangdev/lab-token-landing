@@ -19,19 +19,19 @@ function NavComponent() {
             
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav>
+              <Nav className="ms-auto">
                 <Nav.Link href="#about">About</Nav.Link>             
                 <Nav.Link href="">Tokenomics</Nav.Link>
                 <Nav.Link href="#roadmap">Roadmap</Nav.Link>
                 <Nav.Link href="#team">Team</Nav.Link>   
                 <Nav.Link href="" target="_blank">Whitepaper</Nav.Link>
               </Nav>              
-              <Nav className="ms-auto">
+              {/* <Nav className="ms-auto">
                 <div className='nav-social-cont'>
                   <Nav.Link className="nav-social" href="" target="_blank"><FaDiscord/></Nav.Link>
                   <Nav.Link className="nav-social" href="" target="_blank"><FaTwitter/></Nav.Link>
                 </div>
-              </Nav>
+              </Nav> */}
             </Navbar.Collapse>
           </Container>
         </Navbar>

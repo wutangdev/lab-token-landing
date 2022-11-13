@@ -4,7 +4,7 @@ import { FaTwitter, FaDiscord, FaTelegram, FaInstagram } from 'react-icons/fa';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import Hero from '../components/sections/Hero';
-import Features from '../components/sections/Features';
+import Goal from '../components/sections/Goal';
 import About from '../components/sections/About';
 import FAQ from '../components/sections/FAQ';
 import Team from '../components/sections/Team';
@@ -22,8 +22,8 @@ export default function Home() {
         <Nav/>
         {/* <Rain/> */}
         <Hero/>
-        <Features/>
         <About/>
+        <Goal/>
         <Roadmap/>
         <Team/>
         <FAQ/>
