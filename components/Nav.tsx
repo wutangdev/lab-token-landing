@@ -8,9 +8,9 @@ function NavComponent() {
         <>
         <Navbar className='hov-navbar navbar-dark position-fixed' expand="lg" style={{justifyContent:"center", zIndex:"10"}}>
           <Container className='mx-lg-5 hov-nav-container'>
-            <Navbar.Brand> 
+            <Navbar.Brand href="#hero"> 
               <img
-                alt=""
+                alt="logo"
                 src="/lab.svg"
                 className="d-inline-block align-top"
                 style={{height:"50px"}}

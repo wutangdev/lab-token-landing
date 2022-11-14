@@ -21,7 +21,7 @@ function About() {
                     </div>
                     <div className="col-lg-6">
                         <h1 className="display-5 fw-bold lh-1 mb-3">What is Lab Reserve?</h1>
-                        <p className="lead">LAB, driven and governed by community consensus, is a decentralized peer to peer DeFi lending ecosystem. The purpose of Lab Reserve is to remove centralized oversight and control and provide the growing Web3 ecosystem with an ecosystem that maintains decentralization and community power. Lab Reserve is backed by our treasury of growing assets.</p>
+                        <p className="lead">LAB, driven and governed by community consensus, is a decentralized peer to peer DeFi lending ecosystem. The purpose of Lab Reserve is to remove centralized oversight and control and provide the growing Web3 community with an ecosystem that maintains decentralization and community power. Lab Reserve is backed by our treasury of growing assets.</p>
                         <div className="d-grid gap-2 d-md-flex justify-content-md-start">
                         </div>
                     </div>

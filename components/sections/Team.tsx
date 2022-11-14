@@ -64,15 +64,15 @@ function Team() {
                 className="mb-3"
                 justify
               >
-              <Tab eventKey="team1" title="team1">
+              <Tab eventKey="team1" title="Core">
                 <div className="row team-row">
 
                 {teamMembers.map(member => (
-                  <div  key={member.id} className="col-sm-6 col-lg-4 team-container">
+                  <div  key={member.id} className="col-sm-6 col-lg-4 team-container pt-4">
                   <Card className='custom-card'>
                     <Card.Img variant="top" src={member.img} />
                     <Card.Body>
-                      <Card.Title>{member.name}</Card.Title>
+                      <Card.Title className='fw-bold'>{member.name}</Card.Title>
                       <Card.Text>
                         {member.title} <br></br>
                         {member.desc}
@@ -93,15 +93,15 @@ function Team() {
               </div>
               </Tab>
               
-              <Tab eventKey="team2" title="team2">
+              <Tab eventKey="team2" title="Affiliates">
                 <div className="row team-row">
 
                 {teamMembers.map(member => (
-                  <div  key={member.id} className="col-sm-6 col-lg-4 team-container">
+                  <div  key={member.id} className="col-sm-6 col-lg-4 team-container pt-4">
                   <Card className='custom-card'>
                     <Card.Img variant="top" src={member.img} />
                     <Card.Body>
-                      <Card.Title>{member.name}</Card.Title>
+                      <Card.Title className='fw-bold'>{member.name}</Card.Title>
                       <Card.Text>
                         {member.title} <br></br>
                         {member.desc}
