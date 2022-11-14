@@ -116,10 +116,6 @@ height: 100%;
     height: 3rem;
 }
 
-.features-image {
-    max-height: 50vh;
-}
-
 // .goal-icon {
 //     height: 400px;
 // }
@@ -129,10 +125,23 @@ height: 100%;
 }
 
 .about-image {
-    max-height: 80vh!important;
-    max-width: 80vw!important;
     margin: auto!important;
 }
+
+
+@media only screen and (min-width: 750px) {
+    .about-image {
+        max-height: 80vh!important;
+        max-width: 100%!important;
+    }
+  }
+  
+  @media only screen and (max-width: 751px) {
+    .about-image {
+        max-height: 80vh!important;
+        max-width: 80vw!important;
+    }
+  }
 
 // #features, #roadmap, #faq {
 //     background-image: radial-gradient(rgba(6, 15, 7, 0.82), rgba(10, 26, 13, 0.83)), url('/graphics/bg-space.jpg');    
@@ -152,8 +161,23 @@ height: 100%;
 //     background-size: cover;
 //  }
 
-#hero, #about, #team, #roadmap, #goal, #faq {
-    background-image: radial-gradient(hsla(0,0%,100%,.2) 2%,transparent 0);
+ #goal, #team {
+    background-image: linear-gradient(0deg, rgb(12, 16, 12, 1)0%, rgba(12, 16, 12, 0.65) 33%,rgba(12, 16, 12, 0.65) 66%,  rgb(12, 16, 12, 1) 100%), url('/bgs/bgImg.png');    
+    background-size: cover;
+    background-position: center;
+ }
+
+ #goal::after, #team::before {
+    background-image: radial-gradient(hsla(0,0%,100%,.5) 2%,transparent 0);
+    background-color: transparent;
+    background-position: 0 0,50px 50px;
+    background-size: 50px 50px;
+    padding: 0;
+    margin: 0 auto;
+ }
+
+#hero, #about, #roadmap, #faq {
+    background-image: radial-gradient(hsla(0,0%,100%,.5) 2%,transparent 0);
     background-color: #0c100c;
     background-position: 0 0,50px 50px;
     background-size: 50px 50px;

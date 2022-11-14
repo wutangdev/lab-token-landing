@@ -64,7 +64,7 @@ function Team() {
                 className="mb-3"
                 justify
               >
-              <Tab eventKey="team1" title="Core">
+              <Tab eventKey="team1" title="Executive">
                 <div className="row team-row">
 
                 {teamMembers.map(member => (
@@ -93,7 +93,7 @@ function Team() {
               </div>
               </Tab>
               
-              <Tab eventKey="team2" title="Affiliates">
+              <Tab eventKey="team2" title="Core">
                 <div className="row team-row">
 
                 {teamMembers.map(member => (
