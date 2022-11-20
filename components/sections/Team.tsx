@@ -7,43 +7,19 @@ import { FaTwitter, FaDiscord, FaTelegram, FaInstagram } from 'react-icons/fa';
 
 const teamMembers = [
   {id:0,
-  name : "Team Member 1",
-  title : "Position",
-  desc : "Description of team member",
+  name : "Noah",
+  title : "Co-Founder",
+  desc : 'Introduced to crypto trading back in 2016 as a day trader. Entered the development space in 2019 with learning python and eventually took on solidity development in late 2020. Tinker enthusiast. NFT backend developer since 2021. I go by the motto of "not sure why it worked, but it worked and thats what matters"',  
   twitter : true,
-  twitterHref : "",
-  img : "/team/alec.png",
+  twitterHref : "https://twitter.com/ElderPyke",
+  img : "/team/noah.png",
   }, 
   {id:1,
-  name : "Team Member 2",
-  title : "Position",
-  desc : "Description of team member",
+  name : "Alec",
+  title : "Co-Founder",
+  desc : "8+ years development experience. 5+ years marketing experience.",
   twitter : true,
-  twitterHref : "",
-  img : "/team/noah.png",
-  }, 
-  {id:2,
-  name : "Team Member 3",
-  title : "Position",
-  desc : "Description of team member",
-  twitter : true,
-  twitterHref : "",
-  img : "/team/alec.png",
-  }, 
-  {id:3,
-  name : "Team Member 4",
-  title : "Position",
-  desc : "Description of team member",
-  twitter : true,
-  twitterHref : "",
-  img : "/team/noah.png",
-  }, 
-  {id:4,
-  name : "Team Member 5",
-  title : "Position",
-  desc : "Description of team member",
-  twitter : true,
-  twitterHref : "",
+  twitterHref : "https://twitter.com/wutangdev",
   img : "/team/alec.png",
   }, 
 ];
@@ -57,8 +33,33 @@ function Team() {
           <div className='container'>
             <div className="px-4 py-5 text-center">
               <h1 className="display-5 fw-bold ga-section-title">Team</h1>
+                <div className="row team-row">
+
+                  {teamMembers.map(member => (
+                    <div  key={member.id} className="col-sm-6 col-lg-4 team-container pt-4">
+                    <Card className='custom-card'>
+                      <Card.Img variant="top" src={member.img} />
+                      <Card.Body>
+                        <Card.Title className='fw-bold'>{member.name}</Card.Title>
+                        <Card.Text>
+                          {member.title}
+                        </Card.Text>
+                        <ul className="nav col-md-4 justify-content-center list-unstyled d-flex" style={{margin:'auto'}}>
+                        { member.twitter == true ? (
+                        <li><a href={member.twitterHref}><FaTwitter  size={"1.5rem"} color={"#01d437"}/></a></li>
+                        ) : (
+                          
+                        <li style={{width:0}}></li> 
+                        ) }
+                        </ul>
+                      </Card.Body>
+                    </Card>
+                    </div>
+                  ))}
+                  
+                </div>
               
-              <Tabs
+              {/* <Tabs
                 defaultActiveKey="team1"
                 id="justify-tab-example"
                 className="mb-3"
@@ -121,7 +122,7 @@ function Team() {
                 
               </div>
               </Tab>
-              </Tabs>
+              </Tabs> */}
             </div>
           </div>            
         </div>

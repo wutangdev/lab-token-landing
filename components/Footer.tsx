@@ -14,7 +14,8 @@ function Footer() {
                     {/* <a href="#hero" className="mb-3 me-2 mb-md-0 lh-1">                  
                     <Image className="d-block mx-auto mb-4" src="/images/sample.png" alt="" width="72" height="57"/>
                     </a> */}
-                    <span style={{color:"#01d437"}}>&copy; {new Date().getFullYear()} Lab Reserve</span>
+                    <span style={{color:"#01d437"}}>&copy; {new Date().getFullYear()} Lab Reserve <br></br>Product of <a href="https://mellowlabs.dev/" target="_blank" style={{textDecoration:"none", color:"white"}}>Mellow Labs</a></span>
+                    
                 </div>
 
                 <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
