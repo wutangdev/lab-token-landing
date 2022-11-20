@@ -17,7 +17,7 @@ export default function Home() {
       <Head>
         <title>Lab Reserve</title>
         <meta name="description" content="Lab Reserve - community driven, DAO governed, fully decentralized peer to peer lending protocol" />
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon.ico" />
 
         <meta property="og:type" content="website"/>
         <meta property="og:url" content="/metaImg.png"/>
