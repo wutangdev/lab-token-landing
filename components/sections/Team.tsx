@@ -33,7 +33,7 @@ function Team() {
           <div className='container'>
             <div className="px-4 py-5 text-center">
               <h1 className="display-5 fw-bold ga-section-title">Team</h1>
-                <div className="row team-row">
+                <div className="row team-row justify-content-center">
 
                   {teamMembers.map(member => (
                     <div  key={member.id} className="col-sm-6 col-lg-4 team-container pt-4">
