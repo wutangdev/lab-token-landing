@@ -20,16 +20,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
 
         <meta property="og:type" content="website"/>
-        <meta property="og:url" content="/metaImg.png"/>
+        <meta property="og:url" content="https://labreserve.xyz/"/>
         <meta property="og:title" content="Lab Reserve"/>
         <meta property="og:description" content="Lab Reserve - community driven, DAO governed, fully decentralized peer to peer lending protocol"/>       
-        <meta property="og:image" content="/metaImg.png"/>
+        <meta property="og:image" content="https://labreserve.xyz/metaImg.png"/>
 
         <meta property="twitter:card" content="summary_large_image"/>
         <meta property="twitter:url" content="https://labreserve.xyz/"/>
         <meta property="twitter:title" content="Lab Reserve"/>
         <meta property="twitter:description" content="Lab Reserve - community driven, DAO governed, fully decentralized peer to peer lending protocol"/>
-        <meta property="twitter:image" content="/metaImg.png"/> 
+        <meta property="twitter:image" content="https://labreserve.xyz/metaImg.png"/> 
       </Head>
         <Nav/>
         {/* <Rain/> */}
