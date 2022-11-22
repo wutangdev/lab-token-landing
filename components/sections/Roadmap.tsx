@@ -20,7 +20,6 @@ function Roadmap() {
                                         <li>Initial conception of Lab Reserve</li>
                                         <li>Whitepaper created</li>
                                         <li>Investor pooling for Private Sales</li>
-                                        <li>Launch of LAB token on BSC</li>
                                         <li>Partnership Outreach begins</li>
                                     </ul>                                         
                                   </div>
@@ -32,6 +31,7 @@ function Roadmap() {
                                   <h3 className="title">Q1 2023</h3>
                                   <div className="description">
                                     <ul className="description-list">
+                                        <li>Launch of LAB token on BSC</li>
                                         <li>Launch of Lab Reserve BETA platform</li>
                                         <li>User Optimization and Presence</li>
                                         <li>Partnership Adoption</li>
