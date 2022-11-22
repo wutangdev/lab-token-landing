@@ -1,6 +1,6 @@
 import React from 'react';
 import { Image  } from 'react-bootstrap';
-import { FaTwitter, FaDiscord } from 'react-icons/fa';
+import { FaTwitter, FaDiscord, FaTelegram } from 'react-icons/fa';
 
 function Footer() {
 
@@ -19,8 +19,8 @@ function Footer() {
                 </div>
 
                 <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
-                    <li className="ms-3"><a href=""><FaTwitter color='#01d437'  size={"2.5rem"}/></a></li>
-                    <li className="ms-3"><a href=""><FaDiscord color='#01d437'  size={"2.5rem"}/></a></li>                
+                    <li className="ms-3"><a href="https://twitter.com/TheLabReserve" target="_blank" rel="noreferrer"><FaTwitter color='#01d437'  size={"2.5rem"}/></a></li>
+                    <li className="ms-3"><a href="https://t.me/LabReserve" target="_blank" rel="noreferrer"><FaTelegram color='#01d437'  size={"2.5rem"}/></a></li>                
                 </ul>
                 </footer>
             </div>
