@@ -8,7 +8,7 @@ function NavComponent() {
         <>
         <Navbar className='hov-navbar navbar-dark position-fixed' expand="lg" style={{justifyContent:"center", zIndex:"10"}}>
           <Container className='mx-lg-5 hov-nav-container'>
-            <Navbar.Brand href="#hero"> 
+            <Navbar.Brand href="/#hero"> 
               <img
                 alt="logo"
                 src="/lab.svg"
@@ -20,9 +20,10 @@ function NavComponent() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ms-auto">
-                <Nav.Link href="#about">About</Nav.Link>
-                <Nav.Link href="#roadmap">Roadmap</Nav.Link>
-                <Nav.Link href="#team">Team</Nav.Link>     
+                <Nav.Link href="/#about">About</Nav.Link>
+                <Nav.Link href="/#roadmap">Roadmap</Nav.Link>
+                <Nav.Link href="/#team">Team</Nav.Link>   
+                <Nav.Link href="/contact">Contact</Nav.Link>    
                 {/* <Nav.Link href="" target="_blank">Whitepaper</Nav.Link> */}
               </Nav>              
               {/* <Nav className="ms-auto">
