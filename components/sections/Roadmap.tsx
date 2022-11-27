@@ -17,7 +17,7 @@ function Roadmap() {
                                   <h3 className="title">Q4 2022</h3>
                                   <div className="description">
                                     <ul className="description-list">
-                                        <li>Initial conception of Lab Reserve</li>
+                                        <li>Initial conception of Mellow Finance</li>
                                         <li>Whitepaper created</li>
                                         <li>Investor pooling for Private Sales</li>
                                         <li>Partnership Outreach begins</li>
@@ -32,7 +32,7 @@ function Roadmap() {
                                   <div className="description">
                                     <ul className="description-list">
                                         <li>Launch of LAB token on BSC</li>
-                                        <li>Launch of Lab Reserve BETA platform</li>
+                                        <li>Launch of Mellow Finance BETA platform</li>
                                         <li>User Optimization and Presence</li>
                                         <li>Partnership Adoption</li>
                                         <li>DAO Governance introduction</li>
@@ -47,8 +47,8 @@ function Roadmap() {
                                   <h3 className="title">Q2 2023</h3>
                                   <div className="description">
                                     <ul className="description-list">
-                                        <li>Refinement of Lab Reserve Lending protocol with Full Release</li>
-                                        <li>Lab Reserve Swap</li>
+                                        <li>Refinement of Mellow Finance Lending protocol with Full Release</li>
+                                        <li>Mellow Finance Swap</li>
                                         <li>Multi-chain integration</li>
                                         <li>Ecosystem expansion</li>
                                     </ul>                                         

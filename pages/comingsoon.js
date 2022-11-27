@@ -7,8 +7,8 @@ export default function ComingSoon() {
   return (
     <div className="container">
       <Head>
-        <title>Lab Reserve</title>
-        <meta name="description" content="Lab Reserve" />
+        <title>Mellow Finance</title>
+        <meta name="description" content="Mellow Finance" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

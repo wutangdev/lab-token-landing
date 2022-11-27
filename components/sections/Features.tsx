@@ -9,7 +9,7 @@ function Features() {
             <div className='container px-4 py-5'>
                 <div className="row align-items-md-center">
                     <div className="d-flex flex-column align-items-start gap-2">
-                        <h3 className="fw-bold">Our Goal for Lab Reserve</h3>
+                        <h3 className="fw-bold">Our Goal for Mellow Finance</h3>
                         <p className="text-muted">Our goal is to build a trusted decentralized reserve protocol that preserves purchasing power through long term price stability and a growing treasury to back liquidity for Lab Token across decentralized and centralized platforms. </p>
                         {/* <a href="#" className="btn btn-primary btn-lg">Primary button</a> */}
                     </div>
@@ -21,7 +21,7 @@ function Features() {
                         <img src="/graphics/blockchain.png" className="d-block mx-lg-auto img-fluid features-image" alt="flask" loading="lazy"/>
 
                         <h4 className="fw-semibold mb-0">How it Works</h4>
-                        <p className="text-muted">Lab Token{"'"}s initial supply will only be that of those who purchased Lab token during our Private investment rounds, Public Presale, and the initial liquidity pairing. Investors of Lab token will then be able to stake their Lab to mint and generate income through asset to asset staking. This staking pool will have a fixed APY for all stakers. If dilution occurs, Lab Reserve will purchase and burn excess tokens to restore stability. </p>
+                        <p className="text-muted">Lab Token{"'"}s initial supply will only be that of those who purchased Lab token during our Private investment rounds, Public Presale, and the initial liquidity pairing. Investors of Lab token will then be able to stake their Lab to mint and generate income through asset to asset staking. This staking pool will have a fixed APY for all stakers. If dilution occurs, Mellow Finance will purchase and burn excess tokens to restore stability. </p>
                         </div>
 
                         <div className="d-flex flex-column gap-2">
@@ -32,7 +32,7 @@ function Features() {
                         
                         <img src="/graphics/strength.png" className="d-block mx-lg-auto img-fluid features-image" alt="flask" loading="lazy"/>
                         <h4 className="fw-semibold mb-0">Our Strengths</h4>
-                        <p className="text-muted">The team behind Lab Reserve has a diverse background in crypto and provides a strong expertise to help us identify and seize opportunities early on.</p>
+                        <p className="text-muted">The team behind Mellow Finance has a diverse background in crypto and provides a strong expertise to help us identify and seize opportunities early on.</p>
                         </div>
 
                         <div className="d-flex flex-column gap-2">
@@ -43,7 +43,7 @@ function Features() {
                         
                         <img src="/graphics/strategy.png" className="d-block mx-lg-auto img-fluid features-image" alt="flask" loading="lazy"/>
                         <h4 className="fw-semibold mb-0">Our Strategy</h4>
-                        <p className="text-muted">Our Strategy for growing the Lab Reserve ecosystem is based through our staff{"'"}s expertise in securing partnerships and secure early adoption of accepting Lab Token as a form of payment. The Lab Reserve Team is dedicated to enabling and optimizing Lab token for mass adoption. </p>
+                        <p className="text-muted">Our Strategy for growing the Mellow Finance ecosystem is based through our staff{"'"}s expertise in securing partnerships and secure early adoption of accepting Lab Token as a form of payment. The Mellow Finance Team is dedicated to enabling and optimizing Lab token for mass adoption. </p>
                         </div>
 
                         <div className="d-flex flex-column gap-2">
@@ -55,7 +55,7 @@ function Features() {
                         
                         <img src="/graphics/investments.png" className="d-block mx-lg-auto img-fluid features-image" alt="flask" loading="lazy"/>
                         <h4 className="fw-semibold mb-0">Our Investments</h4>
-                        <p className="text-muted">Lab Reserve, powered with Lab Token, will utilize it{"'"}s treasury to invest into new and promising protocols, tokens, and high return yield strategies across the DeFi ecosystem.</p>
+                        <p className="text-muted">Mellow Finance, powered with Lab Token, will utilize it{"'"}s treasury to invest into new and promising protocols, tokens, and high return yield strategies across the DeFi ecosystem.</p>
                         </div>
                     </div>
                 </div>
