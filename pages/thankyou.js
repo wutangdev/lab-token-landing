@@ -10,7 +10,7 @@ const Thankyou = () => {
       <Head>
         <title>Mellow Finance</title>
         <meta name="description" content="Mellow Finance - community driven, DAO governed, fully decentralized peer to peer lending protocol" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/MLogo.png" />
 
         <meta property="og:type" content="website"/>
         <meta property="og:url" content="https://labreserve.xyz/"/>

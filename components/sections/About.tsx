@@ -8,7 +8,7 @@ function About() {
             <div className="container px-4 py-5">
 
                 {/* <div className="text-center">
-                    <img className="d-block mx-auto mb-4" src="/favicon.ico" alt="" width="72" height="72"/>
+                    <img className="d-block mx-auto mb-4" src="/MLogo.png" alt="" width="72" height="72"/>
                     <h1 className="display-5 fw-bold">What is Mellow Finance?</h1>
                     <div className="col-lg-12 mx-auto">
                     <p className="lead mb-4">LAB, driven and governed by community consensus, is a decentralized peer to peer DeFi lending ecosystem. The purpose of Mellow Finance is to remove centralized oversight and control and provide the growing Web3 ecosystem with an ecosystem that maintains decentralization and community power. Mellow Finance is backed by our treasury of growing assets. </p>

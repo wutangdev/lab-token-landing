@@ -9,7 +9,7 @@ export default function ComingSoon() {
       <Head>
         <title>Mellow Finance</title>
         <meta name="description" content="Mellow Finance" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/MLogo.png" />
       </Head>
 
       <div class="container">
