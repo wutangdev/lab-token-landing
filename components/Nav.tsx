@@ -11,9 +11,15 @@ function NavComponent() {
             <Navbar.Brand href="/#hero"> 
               <img
                 alt="logo"
-                src="/lab.svg"
-                className="d-inline-block align-top"
-                style={{height:"50px"}}
+                src="/MLogo-long.png"
+                className="align-top rm-d"
+                style={{height:"30px"}}
+              /> 
+              <img
+                alt="logo"
+                src="/MLogo.png"
+                className="align-top rm-m"
+                style={{height:"60px"}}
               />
             </Navbar.Brand>            
             
