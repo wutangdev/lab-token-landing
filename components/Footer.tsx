@@ -19,8 +19,8 @@ function Footer() {
                 </div>
 
                 <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
-                    <li className="ms-3"><a href="https://twitter.com/TheLabReserve" target="_blank" rel="noreferrer"><FaTwitter color='#69c396'  size={"2.5rem"}/></a></li>
-                    <li className="ms-3"><a href="https://t.me/LabReserve" target="_blank" rel="noreferrer"><FaTelegram color='#69c396'  size={"2.5rem"}/></a></li>                
+                    <li className="ms-3"><a href="https://twitter.com/MellowDeFi" target="_blank" rel="noreferrer"><FaTwitter color='#69c396'  size={"2.5rem"}/></a></li>
+                    {/* <li className="ms-3"><a href="https://t.me/LabReserve" target="_blank" rel="noreferrer"><FaTelegram color='#69c396'  size={"2.5rem"}/></a></li>                 */}
                 </ul>
                 </footer>
             </div>
