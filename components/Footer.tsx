@@ -1,6 +1,7 @@
 import React from 'react';
 import { Image  } from 'react-bootstrap';
 import { FaTwitter, FaDiscord, FaTelegram } from 'react-icons/fa';
+import {SiGitbook} from 'react-icons/si';
 
 function Footer() {
 
@@ -19,8 +20,8 @@ function Footer() {
                 </div>
 
                 <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
-                    <li className="ms-3"><a href="https://twitter.com/MellowDeFi" target="_blank" rel="noreferrer"><FaTwitter color='#69c396'  size={"2.5rem"}/></a></li>
-                    {/* <li className="ms-3"><a href="https://t.me/LabReserve" target="_blank" rel="noreferrer"><FaTelegram color='#69c396'  size={"2.5rem"}/></a></li>                 */}
+                    <li className="ms-3"><a href="https://twitter.com/MellowDeFi" target="_blank" rel="noreferrer"><FaTwitter color='#69c396'  size={"2rem"}/></a></li>
+                    <li className="ms-3"><a href="https://docs.mellowlabs.finance/" target="_blank" rel="noreferrer"><SiGitbook color='#69c396'  size={"2rem"}/></a></li>                
                 </ul>
                 </footer>
             </div>
