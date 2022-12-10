@@ -35,7 +35,7 @@ function FAQ() {
         <>
         <div id='faq'>          
             <div className="container px-4 py-5">          
-              <h1 className="display-5 fw-bold text-center">Have any Questions?</h1>
+              <h1 className="display-5 fw-bold text-center pb-4">Have any Questions?</h1>
               <div className="row">
                 <div className="col-md-8 m-auto">
                 {faqs.map(faq => (

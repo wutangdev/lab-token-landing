@@ -7,7 +7,7 @@ function Roadmap() {
         <>
         <div id='roadmap'>
           <div className="container px-4 py-5">
-            <h1 className="display-5 fw-bold text-center">Roadmap</h1>
+            <h1 className="display-5 fw-bold text-center pb-4">Roadmap</h1>
               <div className="row">
                   <div className="col-md-12">
                       <div className="main-timeline">
