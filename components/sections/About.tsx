@@ -42,21 +42,21 @@ function About() {
                 <div className="row g-4 py-5 row-cols-1 row-cols-lg-3 text-center mellow-card mt-5">
                     <div className="col">
                         <div className="goal-icon">
-                            <RiNumber1 color='#69c396'  size={"2rem"}/>
+                            <RiNumber1 color='#69c396'  size={"3rem"}/>
                         </div>
                         <h2 className='fw-bold'>Choose a Stretegy</h2>
                         <p>Deposit collateral into a strategy vault.</p>
                     </div>
                     <div className="col">
                         <div className="goal-icon">
-                            <RiNumber2 color='#69c396'  size={"2rem"}/>
+                            <RiNumber2 color='#69c396'  size={"3rem"}/>
                         </div>
                         <h2 className='fw-bold'>Earn Yield</h2>
                         <p>Let your deposited collateral earn for you.</p>
                     </div>
                     <div className="col">
                         <div className="goal-icon">
-                            <RiNumber3 color='#69c396'  size={"2rem"}/>
+                            <RiNumber3 color='#69c396'  size={"3rem"}/>
                         </div>
                         <h2 className='fw-bold'>Choose Your Path</h2>
                         <p>Borrow future yield, Spend earned credit, or save. The choice is yours</p>
