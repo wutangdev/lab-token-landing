@@ -6,7 +6,7 @@ import { FaTwitter, FaDiscord } from 'react-icons/fa';
 function NavComponent() {
       return (
         <>
-        <Navbar className='hov-navbar navbar-dark position-fixed' expand="lg" style={{justifyContent:"center", zIndex:"10"}}>
+        <Navbar className='hov-navbar navbar-dark' expand="lg" style={{justifyContent:"center", zIndex:"10"}}>
           <Container className='mx-lg-5 hov-nav-container'>
             <Navbar.Brand href="/#hero"> 
               <img
@@ -29,7 +29,8 @@ function NavComponent() {
                 <Nav.Link href="/#about">About</Nav.Link>
                 <Nav.Link href="/#roadmap">Roadmap</Nav.Link>
                 <Nav.Link href="/#team">Team</Nav.Link>   
-                <Nav.Link href="/contact">Contact</Nav.Link>    
+                <Nav.Link href="/contact">Contact</Nav.Link> 
+                <Nav.Link href="https://docs.mellowlabs.finance/">Docs</Nav.Link>    
                 {/* <Nav.Link href="" target="_blank">Whitepaper</Nav.Link> */}
               </Nav>              
               {/* <Nav className="ms-auto">
