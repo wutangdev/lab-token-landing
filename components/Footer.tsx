@@ -21,6 +21,7 @@ function Footer() {
 
                 <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
                     <li className="ms-3"><a href="https://twitter.com/MellowDeFi" target="_blank" rel="noreferrer"><FaTwitter color='#69c396'  size={"2rem"}/></a></li>
+                    <li className="ms-3"><a href="https://t.co/x5D5PryyAP" target="_blank" rel="noreferrer"><FaDiscord color='#69c396'  size={"2rem"}/></a></li>
                     <li className="ms-3"><a href="https://docs.mellowlabs.finance/" target="_blank" rel="noreferrer"><SiGitbook color='#69c396'  size={"2rem"}/></a></li>                
                 </ul>
                 </footer>
