@@ -36,7 +36,7 @@ function Roadmap() {
                                         <li>User Optimization and Presence</li>
                                         <li>Partnership Adoption</li>
                                         <li>DAO Governance introduction</li>
-                                        <li>Introduction and Implementation of LUSD</li>
+                                        <li>Introduction and Implementation of mUSD</li>
                                     </ul>                                         
                                   </div>
                               </div>
