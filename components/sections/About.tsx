@@ -44,7 +44,7 @@ function About() {
                         <div className="goal-icon">
                             <RiNumber1 color='#69c396'  size={"3rem"}/>
                         </div>
-                        <h2 className='fw-bold'>Choose a Stretegy</h2>
+                        <h2 className='fw-bold'>Choose a Strategy</h2>
                         <p>Deposit collateral into a strategy vault.</p>
                     </div>
                     <div className="col">
