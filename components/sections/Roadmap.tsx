@@ -31,7 +31,7 @@ function Roadmap() {
                                   <h3 className="title">Q1 2023</h3>
                                   <div className="description">
                                     <ul className="description-list">
-                                        <li>Launch of LAB token on BSC</li>
+                                        <li>Launch of LAB token</li>
                                         <li>Launch of Mellow Finance BETA platform</li>
                                         <li>User Optimization and Presence</li>
                                         <li>Partnership Adoption</li>
